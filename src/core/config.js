@@ -1,0 +1,44 @@
+export default {
+  "id": 11,
+  "title": "Contact Inbox",
+  "framework": "Express",
+  "transport": "api",
+  "details": [],
+  "projects": [],
+  "actions": [],
+  "capacity": 0,
+  "adminOnly": false,
+  "hideForm": false,
+  "publicList": false,
+  "formNote": "Your details are used only to handle this request.",
+  "kind": "contact",
+  "eyebrow": "GET IN TOUCH",
+  "headline": "Start with a hello.",
+  "description": "Send a question, a useful detail, or a project idea directly to the site owner.",
+  "button": "Send message",
+  "fields": [
+    {
+      "name": "name",
+      "label": "Your name",
+      "type": "text"
+    },
+    {
+      "name": "email",
+      "label": "Email address",
+      "type": "email"
+    },
+    {
+      "name": "subject",
+      "label": "Subject",
+      "type": "text"
+    },
+    {
+      "name": "message",
+      "label": "Message",
+      "type": "textarea"
+    }
+  ],
+  "success": "Your message is saved.",
+  "accent": "#365694",
+  "batch": false
+};
